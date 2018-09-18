@@ -1,0 +1,188 @@
+Last login: Mon Sep 17 20:20:37 on ttys002
+wifi-roaming-128-4-134-182:~ dennisfenchenko$ cd Downloads/lab3-play/
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git init 
+Reinitialized existing Git repository in /Users/dennisfenchenko/Downloads/lab3-play/.git/
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   lab03-01.txt
+	new file:   lab03-02.txt
+	new file:   lab03-03.txt
+	new file:   lab03-04.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-01.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-02.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-03.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-04.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git commit -m"First commit"
+[master (root-commit) 535c4fe] First commit
+ 4 files changed, 244 insertions(+)
+ create mode 100644 lab03-01.txt
+ create mode 100644 lab03-02.txt
+ create mode 100644 lab03-03.txt
+ create mode 100644 lab03-04.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+nothing to commit, working tree clean
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git rm --cached lab03-01.txt
+rm 'lab03-01.txt'
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-02.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-03.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git reset  HEAD lab03-02.txt
+Unstaged changes after reset:
+M	lab03-02.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-03.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git rm --cached lab03-03.txt
+rm 'lab03-03.txt'
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+	deleted:    lab03-03.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+	lab03-03.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git add lab03-03.txt
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git status 
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    lab03-01.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab03-02.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab03-01.txt
+
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ git clone https://github.com/Denisfench/CISC275.git
+Cloning into 'CISC275'...
+warning: You appear to have cloned an empty repository.
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ cd Documents/CISC275-Git/
+-bash: cd: Documents/CISC275-Git/: No such file or directory
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ cd Documents/CISC275-Git/
+-bash: cd: Documents/CISC275-Git/: No such file or directory
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ pwd
+/Users/dennisfenchenko/Downloads/lab3-play
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ cd Documents/
+-bash: cd: Documents/: No such file or directory
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ cd Downloads/
+-bash: cd: Downloads/: No such file or directory
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ cd Downloads/CISC275-Git/
+-bash: cd: Downloads/CISC275-Git/: No such file or directory
+wifi-roaming-128-4-134-182:lab3-play dennisfenchenko$ 
