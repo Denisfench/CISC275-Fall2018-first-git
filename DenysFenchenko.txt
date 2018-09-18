@@ -1,0 +1,10 @@
+1. Create java files to make this code compile and run. I created the Animal abstract class, the Dog class. Completed
+
+2. What five objects are created in the main? 
+
+In the main the following objects were created: 3 Dogs, 1 List of Dogs and 1 comparator 
+
+3. Can you spot the comparator constructor call? Where is the class definition for the comparator?
+
+ The comparator constructor is in line 16, namely: new Comparator<Animal>() 
+ Constructor is defined from line 16 to line 21.
